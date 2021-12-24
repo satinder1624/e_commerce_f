@@ -8,7 +8,7 @@ function App() {
   const fetchApi = (location, headingReference) => {
     axios
       .get(
-        `http://api.weatherapi.com/v1/forecast.json?key=${process.env.REACT_APP_SECERET_API}&q=${location}&days=5&aqi=yes&alerts=no`
+        `https://api.weatherapi.com/v1/forecast.json?key=${process.env.REACT_APP_SECERET_API}&q=${location}&days=5&aqi=yes&alerts=no`
       )
       .then((res) => {
         setTodayData(res.data.current);
