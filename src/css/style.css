@@ -1,23 +1,26 @@
 @font-face {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVuEooCP.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVuEooCP.ttf)
+    format("truetype");
 }
 @font-face {
-  font-family: 'Noto Sans';
+  font-family: "Noto Sans";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/notosans/v21/o-0NIpQlx3QUlC5A4PNjXhFlYw.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/notosans/v21/o-0NIpQlx3QUlC5A4PNjXhFlYw.ttf)
+    format("truetype");
 }
 @font-face {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVuEooCP.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVuEooCP.ttf)
+    format("truetype");
 }
 /*
       www.OnlineWebFonts.Com 
@@ -30,7 +33,20 @@
   font-family: "VoxRoundW01-Semibold";
   src: url("http://db.onlinewebfonts.com/t/8491a449cb242143453432ee81f0051d.eot");
   /* IE9*/
-  src: url("http://db.onlinewebfonts.com/t/8491a449cb242143453432ee81f0051d.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("http://db.onlinewebfonts.com/t/8491a449cb242143453432ee81f0051d.woff2") format("woff2"), /* chrome firefox */ url("http://db.onlinewebfonts.com/t/8491a449cb242143453432ee81f0051d.woff") format("woff"), /* chrome firefox */ url("http://db.onlinewebfonts.com/t/8491a449cb242143453432ee81f0051d.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/ url("http://db.onlinewebfonts.com/t/8491a449cb242143453432ee81f0051d.svg#VoxRoundW01-Semibold") format("svg");
+  src: url("http://db.onlinewebfonts.com/t/8491a449cb242143453432ee81f0051d.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("http://db.onlinewebfonts.com/t/8491a449cb242143453432ee81f0051d.woff2")
+      format("woff2"),
+    /* chrome firefox */
+      url("http://db.onlinewebfonts.com/t/8491a449cb242143453432ee81f0051d.woff")
+      format("woff"),
+    /* chrome firefox */
+      url("http://db.onlinewebfonts.com/t/8491a449cb242143453432ee81f0051d.ttf")
+      format("truetype"),
+    /* chrome firefox opera Safari, Android, iOS 4.2+*/
+      url("http://db.onlinewebfonts.com/t/8491a449cb242143453432ee81f0051d.svg#VoxRoundW01-Semibold")
+      format("svg");
   /* iOS 4.1- */
 }
 .center {
@@ -134,7 +150,8 @@
   font-size: 2.5rem;
 }
 .degreeText {
-  font-family: "VoxRoundW01-Semibold", "Vox Round Semibold", "Noto Sans", "sans-serif";
+  font-family: "VoxRoundW01-Semibold", "Vox Round Semibold", "Noto Sans",
+    "sans-serif";
   font-size: 3rem;
   line-height: 3.5rem;
   font-weight: bold;
@@ -161,7 +178,8 @@
   font-weight: bold;
 }
 .degreeTextSub {
-  font-family: "VoxRoundW01-Semibold", "Vox Round Semibold", "Noto Sans", "sans-serif";
+  font-family: "VoxRoundW01-Semibold", "Vox Round Semibold", "Noto Sans",
+    "sans-serif";
   font-size: 1.8rem;
   font-weight: bold;
 }
@@ -169,13 +187,13 @@
   .forecastContainer {
     margin-top: 0.4rem;
   }
+  .todayContainer {
+    margin-bottom: 0rem;
+  }
 }
 @media only screen and (max-width: 815px) {
   .dataContainer {
     margin: 1rem 2rem;
-  }
-  .todayContainer {
-    margin-bottom: 0rem;
   }
 }
 @media only screen and (max-width: 433px) {
