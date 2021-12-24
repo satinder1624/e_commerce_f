@@ -7,4 +7,4 @@ const findDay = (date) => {
   return dayArray[dayName.getDay()];
 };
 
-export default { findDay };
+export default findDay;

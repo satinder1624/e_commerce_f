@@ -5,12 +5,12 @@ function SubPartsCenter({ list }) {
   let today = list.day.condition.text;
 
   let todayDescriptionArr = [];
-  todayDescriptionArr = lib.setDescription(today);
+  todayDescriptionArr = lib(today);
 
   return (
     <div className="forecastContainer">
       <div>
-        <span className="nextDayText">{find.findDay(list.date)}</span>
+        <span className="nextDayText">{find(list.date)}</span>
       </div>
       <div className="forecastContainer-description">
         <div>

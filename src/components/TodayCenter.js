@@ -5,7 +5,7 @@ function TodayCenter({ currentData }) {
   const temp = currentData.temp_c;
 
   let todayDescriptionArr = [];
-  todayDescriptionArr = lib.setDescription(today);
+  todayDescriptionArr = lib(today);
 
   return (
     // todayContainer

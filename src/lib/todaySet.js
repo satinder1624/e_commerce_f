@@ -36,4 +36,4 @@ const setDescription = (today) => {
   return [today, classForIcon];
 };
 
-export default { setDescription };
+export default setDescription;
