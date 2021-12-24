@@ -7,7 +7,7 @@
 @app-background: rgb(238, 246, 251);
 @background-color-container: rgb(238, 246, 251);
 @cloud-color: rgb(205, 240, 240);
-@full-height: 100vh;
+@full-height: 100%;
 @maxWidth: 50rem;
 @dataContainerBackgroundColor: White;
 @fontSizeAndMargin: 2rem;
@@ -63,10 +63,13 @@
   font-weight: bold;
 }
 
+.body {
+  background-color: @app-background;
+  padding-bottom: 2rem;
+}
+
 .App {
   text-align: center;
-  height: @full-height;
-  background-color: @app-background;
 }
 
 .cityNames {
@@ -168,6 +171,9 @@
 @media only screen and (max-width: 815px) {
   .dataContainer {
     margin: @OneRem @fontSizeAndMargin;
+  }
+  .todayContainer {
+    margin-bottom: 0rem;
   }
 }
 
