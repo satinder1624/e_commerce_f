@@ -28,7 +28,7 @@ const setDescription = (today) => {
   } else if (today.includes("rain") || today.includes("Rain")) {
     today = "Rain";
     classForIcon = "fas fa-cloud-showers-heavy fa-6x colorChangeCloud";
-  } else if (today.includes("fog")) {
+  } else if (today.includes("fog") || today.includes("Fog")) {
     today = "Fog";
     classForIcon = "fas fa-smog fa-6x colorChangeCloud";
   }
